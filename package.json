@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npm run storybook",
+    "dev": "next dev",
     "build": "next build",
-    "start": "npm run storybook",
+    "start": "next start",
     "lint": "next lint",
-    "storybook": "storybook dev -p 3000",
+    "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
